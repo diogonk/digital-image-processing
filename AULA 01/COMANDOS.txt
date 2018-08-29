@@ -1,0 +1,15 @@
+Comandos:
+
+ver	Version
+path	mostra todos os caminhos reconhecidos no matlab
+whos	Tipo da variável
+uint8	unsigned char
+uint16	
+uint32	
+double	classe padrãp matlab
+clear all
+clear a; b; ans
+
+m = magic(4) %Gera matriz quadrado mágico
+s = m(2:3,2:3) %pega a submatriz entre linhas 2:3 e colunas 2:3
+

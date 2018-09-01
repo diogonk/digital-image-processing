@@ -12,6 +12,6 @@ title('Original')
 subplot(1,2,2);
 imshow(imabs);
 title('Modificado');
-imsave
+
 % Y(:,:,1) é uma das 16 imagens,  
 % Y(:,:,2) é outra...

@@ -8,9 +8,12 @@ contrast = im2double(contrast);
 %isub = imsubtract(maskimg, contrast);
 imabs = mat2gray(contrast-maskimg);
 
-subplot(1,2,1);
+subplot(1,3,1);
 imshow(maskimg);
-title('Marcara')
-subplot(1,2,2);
+title('Mascara')
+subplot(1,3,2);
+imshow(contrast);
+title('Contrast')
+subplot(1,3,3);
 imshow(imabs);
 title('Resultado')
